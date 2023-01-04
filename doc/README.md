@@ -24,14 +24,12 @@
 
 ## Running the executable: 
   ### Navigate to the bin directory: …/ NDSP_HiFi4/build/bin
-  ### Performance tests:
-  * xt-run testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -mips -sanity         
+  ### Performance tests:     
   * xt-run testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -mips -brief 
   * xt-run testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -mips -full   
   ###	Functional tests:
-  * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -sanity
   * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -brief
   * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -full
-  * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -sanity -verbose 
-  * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -sanity -fir -verbose 
+  * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -brief -verbose 
+  * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -full -fir -verbose 
   * xt-run --turbo testdriver-AE_HiFi4_LE5_AO_FP_llvm-Xtensa-release -func -brief -fir -iir -fft
