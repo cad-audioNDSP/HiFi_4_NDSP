@@ -1,5 +1,5 @@
 # How to Build and Run the Source Code in Linux environment
-  * Get the latest or required version of NDSP HiFi4 Code from GitHub 
+  * Get the latest or required version of NDSP HiFi4 Code from GitHub zip package 
   * https://github.com/cad-audioNDSP/HiFi_4_NDSP/tree/main/NDSP_HiFi4
 
 ## The source code is organized as follows.
